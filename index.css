@@ -2,6 +2,11 @@
   /*親要素*/
   position: relative;
   height: 100vh;
+  background-image: url("TorontoTemple.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .parent span {
@@ -12,5 +17,8 @@
   transform : translate(-50%,-50%);
   width: 600px;
   text-align: center;/*一応BOX内の文字も中央寄せ*/
+  text-shadow:0 5px 5px #FFFFFF;
   font-size: 60px;
+  font-weight: bolder;
+  color: #000000;
 }
